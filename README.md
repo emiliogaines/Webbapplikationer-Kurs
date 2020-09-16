@@ -1,7 +1,4 @@
 # Webbapplikationer-Kurs
-###### av Emilio Gaines
-
-
 ### Projektet
 Projektet kallas för "Mio's Seminarie Finder" då jag ej kom på ett bättre namn.
 Projektet bygger på en stabil bas av jQuery och Bootstrap.
