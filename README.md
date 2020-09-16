@@ -1,6 +1,6 @@
 # Webbapplikationer-Kurs
 ### Projektet
-Projektet kallas för "Mio's Seminarie Finder" i väntan på ett bättre namn.  
+Projektet kallas för *Mio's Seminarie Finder* i väntan på ett bättre namn.  
 Projektet bygger på en stabil bas av [jQuery](https://jquery.com/) och [Bootstrap](https://getbootstrap.com/).
 
 ### Hemsidan
