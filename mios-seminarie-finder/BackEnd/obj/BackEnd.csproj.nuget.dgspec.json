@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mio\\source\\repos\\BackEnd\\BackEnd.csproj": {}
+    "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mio\\source\\repos\\BackEnd\\BackEnd.csproj": {
+    "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mio\\source\\repos\\BackEnd\\BackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj",
         "projectName": "BackEnd",
-        "projectPath": "C:\\Users\\Mio\\source\\repos\\BackEnd\\BackEnd.csproj",
+        "projectPath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj",
         "packagesPath": "C:\\Users\\Mio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mio\\source\\repos\\BackEnd\\obj\\",
+        "outputPath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mio\\AppData\\Roaming\\NuGet\\NuGet.Config",
