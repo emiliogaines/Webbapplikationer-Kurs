@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: dimgrey;
+}
+
+.container-fluid {
+    background-color: #0292D8;
+}
+
+.display-card {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.eggshell {
+    background-color: ghostwhite;
+}
+
+p {
+    color: black;
+}
+
+.ttt-tile {
+    width: 100px;
+    height: 100px;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#gameDiv {
+    display: none;
+}
+
+#victoryText {
+    color: green;
+}
+
+.max-width-desktop {
+    width: 400px;
+    min-width: 80%;
+}
+
+
+@media only screen and (min-width: 480px) {
+    .max-width-desktop {
+        width: 400px;
+        min-width: 400px;
+    }
+}
