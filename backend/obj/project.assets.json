@@ -5430,11 +5430,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\backend\\BackEnd.csproj",
       "projectName": "BackEnd",
-      "projectPath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj",
+      "projectPath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\backend\\BackEnd.csproj",
       "packagesPath": "C:\\Users\\Mio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\obj\\",
+      "outputPath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mio\\AppData\\Roaming\\NuGet\\NuGet.Config",

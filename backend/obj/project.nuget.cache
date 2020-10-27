@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NzV0N6mttb5hSLjHAqJc5/Cump4E4Q8HkDMqFMapjK7/Xk6xwAsyUe4F5r6t59Dy4Z0j8ARMgfCu8hTrndqrMA==",
+  "dgSpecHash": "4wi0K+jnVz89aZsl3AFHnDwcQezUj36QR/Jt9gv5Cx108yqKRYpKZRXQsdqJu+Meyti0J+0nw4PyRhGxjIrH8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\mios-seminarie-finder\\backend\\BackEnd.csproj",
+  "projectFilePath": "C:\\Users\\Mio\\Documents\\Web Development\\School\\Webbapplikationer-Kurs\\backend\\BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mio\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.8\\microsoft.aspnetcore.jsonpatch.3.1.8.nupkg.sha512",
     "C:\\Users\\Mio\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.8\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.8.nupkg.sha512",
