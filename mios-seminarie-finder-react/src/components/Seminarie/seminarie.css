@@ -1,0 +1,17 @@
+.user-picture {
+  width: 20px;
+  height: 20px;
+}
+
+.badge-halloween {
+  background-color: #ff6600;
+  color: white;
+}
+
+.card-color:hover {
+  cursor: default;
+}
+
+.white {
+  color: white;
+}
