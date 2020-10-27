@@ -17,6 +17,8 @@ namespace BackEnd.Controllers
         public class CourseViewModal
         {
             public string Name { get; set; }
+            public string Description { get; set; }
+            public string Published { get; set; }
         }
     }
 }

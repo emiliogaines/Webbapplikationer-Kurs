@@ -86,7 +86,10 @@ namespace BackEnd.Controllers
                 var studentCourse = studentCourses.Find(x => x.CourseID == course.ID);
                 CourseViewModel viewModel = new CourseViewModel
                 {
-                    Name = course.Name
+                    ID = course.ID,
+                    Name = course.Name,
+                    Description = course.Description,
+                    Published = course.Published
                 };
 
                 foreach (var sc in studentCourses)
@@ -97,6 +100,7 @@ namespace BackEnd.Controllers
 
                         viewModel.Students.Add(new CourseViewModel.StudentViewModel
                         {
+                            ID = student.ID,
                             Name = student.Name,
                             Email = student.Email
                         });

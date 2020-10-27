@@ -27,7 +27,7 @@ namespace BackEnd.Controllers
 
         // POST api/<StudentsController>
         [HttpPost]
-        public string Post([FromQuery] string name, string email)
+        public string Post([FromQuery] string name, [FromQuery] string email)
         {
             if (name == null || (name != null && name.Trim().Length == 0) && email == null || (email != null && email.Trim().Length == 0))
             {
@@ -94,7 +94,9 @@ namespace BackEnd.Controllers
 
                         viewModel.Courses.Add(new StudentViewModel.CourseViewModal
                         {
-                            Name = course.Name
+                            Name = course.Name,
+                            Description = course.Description,
+                            Published = course.Published
                         });
                     }
                 }
