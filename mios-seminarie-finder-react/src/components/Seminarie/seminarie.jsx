@@ -5,6 +5,7 @@ import FormDialog from "../FormDialog/formdialog";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "@material-ui/lab/Alert";
 import LinearProgress from "@material-ui/core/LinearProgress";
+
 import "./seminarie.css";
 
 class Seminarie extends Component {
@@ -45,6 +46,7 @@ class Seminarie extends Component {
                       <span className="badge badge-halloween m-1" key={user.id}>
                         <img
                           className="user-picture"
+                          alt=""
                           src={
                             "https://avatars.dicebear.com/api/avataaars/" +
                             user.name +
@@ -116,7 +118,7 @@ class Seminarie extends Component {
       })
       .then((data) => {
         if (
-          this.state.courses.find((x) => x.id === courseId).students.length !=
+          this.state.courses.find((x) => x.id === courseId).students.length !==
           data.find((x) => x.id === courseId).students.length
         ) {
           this.setState({ courses: data, openSnackbar: true });
@@ -137,7 +139,11 @@ class Seminarie extends Component {
   }
 
   componentDidMount() {
-    this.setState({ activity: true });
+    this.fetchData();
+  }
+
+  fetchData() {
+    this.setState({ activity: true, courses: [] });
     fetch("https://localhost:44367/api/courses")
       .then((response) => {
         this.setState({ activity: false });

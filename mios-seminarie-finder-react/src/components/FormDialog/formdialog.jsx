@@ -9,10 +9,6 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 export default class FormDialog extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   state = {
     openDialog: false,
     dialogName: "",
@@ -41,10 +37,6 @@ export default class FormDialog extends Component {
 
     const handleClose = () => {
       this.setState({ openDialog: false });
-    };
-
-    const handleCloseDialog = () => {
-      this.setState({ openSnackbar: false });
     };
 
     const handleCloseAndSave = () => {
